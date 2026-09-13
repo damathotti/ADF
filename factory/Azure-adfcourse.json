@@ -1,0 +1,15 @@
+{
+	"name": "Azure-adfcourse",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "20ad64e5-2cc9-4a1c-b077-c678d52db6c1",
+		"tenantId": "03789f70-beea-4cd6-9663-83ff6218ab00"
+	}
+}
